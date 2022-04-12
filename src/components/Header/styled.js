@@ -4,7 +4,12 @@ export const Header = styled.header`
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content:space-between;
   background-color: #333;
-  border-bottom:solid 3px #ccc; ;
+  border-bottom:solid 3px #ccc; 
+  .container{
+    display:flex ;
+    align-items:center ;
+    justify-content:center ;
+  }
 `;

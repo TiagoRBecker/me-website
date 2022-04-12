@@ -2,7 +2,7 @@ import { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import * as Styled from "./styled";
-export const Mobile = () => {
+ const Mobile = () => {
   const [isActive, setIsActive] = useState(false);
   const hamburguer = <AiOutlineMenu size={34} fill={"#fff"} />;
   const closed = <AiOutlineClose size={34} fill={"#fff"} />;
@@ -38,3 +38,4 @@ export const Mobile = () => {
     </Styled.Mobile>
   );
 };
+export default Mobile;
