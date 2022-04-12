@@ -1,11 +1,10 @@
 import * as Styled from "./styled";
-
-const Logo = () =>{
-    return (
-        <Styled.Logo>
-            <span className="first">Tiago</span>
-            <span className="last">Becker</span>        
-        </Styled.Logo>
-    )
-}
+import logo from "../assets/img/logo.png"
+const Logo = () => {
+  return (
+    <Styled.Logo>
+      <img src={logo} alt="logo"/>
+    </Styled.Logo>
+  );
+};
 export default Logo;

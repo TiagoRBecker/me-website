@@ -1,6 +1,6 @@
 import { Container } from "react-bootstrap";
 import { Button } from "../All";
-import {Skills} from "../mocks/AllMocks";
+import { Skills } from "../mocks/AllMocks";
 import * as Styled from "./styled";
 const Techs = () => {
   return (

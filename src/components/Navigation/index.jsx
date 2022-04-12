@@ -1,12 +1,9 @@
 import * as Styled from "./styled";
 import { Link } from "react-router-dom";
-import Mobile from "./mobile";
-
 
 const Menu = () => {
   return (
     <Styled.MenuDesktop>
-        
       <ul>
         <li>
           <Link to="/">Home</Link>

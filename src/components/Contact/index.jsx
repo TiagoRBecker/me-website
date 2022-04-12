@@ -36,20 +36,20 @@ const Contact = () => {
                 <p>Rua: Antares / Bairro: Cruzeiro</p>
                 <p>Pais: Brasil</p>
               </div>
-              
+
               <div className="email">
                 <h1>E-mail</h1>
                 <p>tiagoBecker@gmail.com</p>
               </div>
-              
+
               <div className="sociais">
                 <h1>Contatos</h1>
                 <div className="icons">
-                  <AiFillLinkedin  />
+                  <AiFillLinkedin />
 
-                  <AiOutlineWhatsApp  />
+                  <AiOutlineWhatsApp />
 
-                  <AiOutlineGithub  />
+                  <AiOutlineGithub />
                 </div>
               </div>
             </Styled.Contato>

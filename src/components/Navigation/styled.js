@@ -5,17 +5,17 @@ export const MenuDesktop = styled.nav`
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content:center;
-  position:absolute ;
+  justify-content: center;
+  position: absolute;
   ul {
-    width:100% ;
-    height:100% ;
+    width: 100%;
+    height: 100%;
     display: flex;
-    align-items:center ;
-    justify-content:flex-end ;
+    align-items: center;
+    justify-content: flex-end;
     list-style: none;
-    padding:0 ;
-    margin:0 ;
+    padding: 0;
+    margin: 0;
     @media screen and (max-width: 700px) {
       display: none;
     }
@@ -24,7 +24,6 @@ export const MenuDesktop = styled.nav`
     padding: 0 10px;
   }
   a {
-
     text-decoration: none;
     font-size: 1.2rem;
     color: #fff;
@@ -40,17 +39,17 @@ export const Mobile = styled.nav`
   height: 100%;
   align-items: center;
   justify-content: flex-end;
-  position:absolute ;
-  padding-right:20px;
-  top:0;
+  position: absolute;
+  padding-right: 20px;
+  top: 0;
 
   button {
     display: none;
     border: none;
     cursor: pointer;
-    position:absolute ;
-    z-index:9999 ;
-    top:32px ;
+    position: absolute;
+    z-index: 9999;
+    top: 32px;
     background-color: transparent;
     @media screen and (max-width: 700px) {
       display: flex;

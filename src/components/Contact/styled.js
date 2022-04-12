@@ -116,10 +116,10 @@ export const Sociais = styled.div`
 export const Contato = styled.div`
   width: 100%;
   height: 100%;
- 
+
   .city,
   .email {
-    padding:1rem ;
+    padding: 1rem;
     width: 100%;
     height: 100%;
     display: flex;
@@ -127,7 +127,7 @@ export const Contato = styled.div`
     justify-content: center;
     align-items: flex-start;
     color: #fff;
-    border-bottom:2px solid #fff; ;
+    border-bottom: 2px solid #fff;
     @media screen and (max-width: 760px) {
       display: flex;
       align-items: center;
@@ -139,13 +139,13 @@ export const Contato = styled.div`
     font-size: 1.6rem;
   }
   .sociais {
-    padding:1rem ;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
-    border-bottom:2px solid #fff ;
-    @media screen and (max-width:760px){
-      align-items:center ;
-      justify-content:center ;
+    border-bottom: 2px solid #fff;
+    @media screen and (max-width: 760px) {
+      align-items: center;
+      justify-content: center;
     }
     h1 {
       color: #fff;
