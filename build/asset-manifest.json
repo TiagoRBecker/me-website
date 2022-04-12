@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.87e963af.css",
+    "main.js": "/static/js/main.08eb9277.js",
+    "static/media/banner-contato.png": "/static/media/banner-contato.4cf9f39715c8114ff289.png",
+    "static/media/banner.jpg": "/static/media/banner.145943beec5e10df1e46.jpg",
+    "index.html": "/index.html",
+    "main.87e963af.css.map": "/static/css/main.87e963af.css.map",
+    "main.08eb9277.js.map": "/static/js/main.08eb9277.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.87e963af.css",
+    "static/js/main.08eb9277.js"
+  ]
+}
