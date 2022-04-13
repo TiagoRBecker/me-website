@@ -7,9 +7,9 @@ const Header = () => {
     <>
       <Styled.Header>
         <Container>
-          <Logo />
+          <Logo data-aos="fade-right" />
           <Mobile />
-          <Menu />
+          <Menu  />
         </Container>
       </Styled.Header>
     </>

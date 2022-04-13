@@ -9,7 +9,7 @@ import * as Styled from "./styled";
 const Contact = () => {
   return (
     <Styled.AreaContato>
-      <Container data-aos="fade-up-left">
+      <Container data-aos="fade-left">
         <Styled.Box>
           <Styled.BoxForm>
             <h1>Contate nos!</h1>

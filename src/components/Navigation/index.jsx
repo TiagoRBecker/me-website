@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Menu = () => {
   return (
-    <Styled.MenuDesktop>
+    <Styled.MenuDesktop data-aos="fade-left">
       <ul>
         <li>
           <Link to="/">Home</Link>

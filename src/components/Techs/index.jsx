@@ -6,7 +6,7 @@ import * as Styled from "./styled";
 const Techs = () => {
   return (
     <Styled.BoxArea>
-      <Container data-aos="fade-up-left">
+      <Container data-aos="fade-left">
         <h1>Tecnologias</h1>
         {Skills.map((skill) => (
           <Styled.Skills key={skill.id}>

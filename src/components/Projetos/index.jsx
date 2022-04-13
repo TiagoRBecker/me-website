@@ -8,7 +8,7 @@ const Project = () => {
   return (
     <>
       <Styled.ProjectsArea >
-        <h1 data-aos="fade-up-right">Projetos</h1>
+        <h1 data-aos="fade-left">Projetos</h1>
         <Container data-aos="fade-up-right">
           <Styled.BoxProjects  >
             {Projects.map((project) => (
