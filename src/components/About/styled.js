@@ -26,19 +26,24 @@ justify-content:center;
 flex-direction:column;`
 
 export const Img = styled.div`
-width:100% ;
+width:100%;
 height:100% ;
-min-height:25vh ;
+min-height:10vh;
 display:flex ;
 align-items:center ;
 justify-content:center ;
 padding:4rem ;
+
 img{
-  width:50% ;
-  height:50% ;
+  width:25% ;
+  height:25% ;
   border-radius:50% ;
   background-size:contain ;
   background-position:center ;
+  @media screen and (max-width:760px){
+    width:100%;
+    height:100% ;
+  }
 }
 `;
 
