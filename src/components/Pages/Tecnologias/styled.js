@@ -1,60 +1,70 @@
 import styled from "styled-components";
 
-export const BoxTechs = styled.div`
+export const BoxTecnologia = styled.div`
 width:100% ;
-height:100% ;
-min-height:100vh ;
-background-color:#333 ;
-padding:25px ;
-`
-export const Techs = styled.div`
-width:100% ;
-height:100% ;
-display:flex ;
-align-items:flex-start ;
-justify-content:center ;
-flex-direction:column ;
-gap:5rem;
-
-`
-export const Tech = styled.div`
-display:flex;
+height:100%;
+min-height:80vh; ;
 align-items:center ;
 justify-content:center ;
-border-bottom:2px solid #999;
+background-color:#333;
+h1{
+  width:100% ;
+  padding-top:2rem ;
+  text-align:center ;
+  color:#fff ;
+}
+`
+export const Front = styled.div`
 width:100% ;
 height:100% ;
-padding:2rem ;
-@media screen and (max-width:760px){
-    flex-direction:column ;
-    text-align:center ;
-    padding:1px ;
-  
-  
+padding:4rem 0;
+
+ ;
+
+`
+export const Backend = styled.div`
+width:100% ;
+height:100% ;
+padding:4rem 0 ;
+
+`
+export const Title = styled.div`
+width:100% ;
+text-align:center ;
+h2{
+  color: #fff;
+  font-size:1.5rem ;
+  font-weight:bold ;
 }
 
 `
-export const Left = styled.div`
-width:170px;
-height:170px;
-img{
-    width:100% ;
-    height:100% ;
-}`
-
-export const Rigth  = styled.div`
-flex:1;
-width:100%;
+export const Flex = styled.div`
+width:100% ;
 height:100% ;
-padding:0 15px ;
-color:white ;
+display:flex ;
+justify-content:center ;
+padding:2rem ;
+
 @media screen and (max-width:760px){
-    padding:0 ;
-    li{
-       
-        width:100%;
-        font-size:0.9rem;
-        margin:0 ;
-    }
+  flex-wrap:wrap ;
+  gap:1rem;
+  justify-content:center ;
+  }
+`
+export const Techs = styled.div`
+width:20%;
+height:100% ;
+display:flex ;
+justify-content:center ;
+`
+export const Tech = styled.div`
+width:100% ;
+height:100% ;
+display:flex ;
+max-width:100px ;
+max-height:180px ;
+img{
+  width:100% ;
+  height:100% ;
 }
 `

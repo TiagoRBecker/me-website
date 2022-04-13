@@ -1,25 +1,40 @@
 import * as Styled from "./styled";
-import { techs } from "../../mocks/AllMocks";
+import { techs, Backend } from "../../mocks/AllMocks";
 import { Container } from "react-bootstrap";
 export const Tecnologias = () => {
   return (
-    <Styled.BoxTechs>
+    <Styled.BoxTecnologia>
+      <h1>Conhecimentos </h1>
       <Container>
-        <Styled.Techs>
-          {techs.map((tech) => (
-            <Styled.Tech>
-              <Styled.Left>
-                <img src={tech.url} alt={tech.Title} />
-              </Styled.Left>
-              <Styled.Rigth>
-                <h2>{tech.Title}</h2>
-                <h3>{tech.descrip}</h3>
-              <li>{tech.skills}</li>
-              </Styled.Rigth>
-            </Styled.Tech>
-          ))}
-        </Styled.Techs>
+        <Styled.Front>
+          <Styled.Title>
+            <h2>Frontend!</h2>
+          </Styled.Title>
+          <Styled.Flex>
+            {techs.map((tech, index) => (
+              <Styled.Techs key={index}>
+                <Styled.Tech>
+                  <img src={tech.url} alt={tech.Title} />
+                </Styled.Tech>
+              </Styled.Techs>
+            ))}
+          </Styled.Flex>
+        </Styled.Front>
+        <Styled.Backend>
+          <Styled.Title>
+            <h2>Backend!</h2>
+          </Styled.Title>
+          <Styled.Flex>
+            {Backend.map((tech, index) => (
+              <Styled.Techs>
+                <Styled.Tech>
+                  <img src={tech.url} alt={tech.Title} />
+                </Styled.Tech>
+              </Styled.Techs>
+            ))}
+          </Styled.Flex>
+        </Styled.Backend>
       </Container>
-    </Styled.BoxTechs>
+    </Styled.BoxTecnologia>
   );
 };

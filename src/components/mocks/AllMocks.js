@@ -4,53 +4,48 @@ export const techs = [
   {
     url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
     Title: "HTML5",
-    descrip: "Intermediário / Avançado",
-    skills: "Tags semanticas, Meta Tags "
   },
   {
     url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-    Title:"Css3",
-    descrip: "Intermediário / Avançado",
-    skills: "Animações , FlexBox, Grids, Responsividade"
+    Title: "Css3",
   },
   {
     url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
     Title: "Javascript",
-    descrip: "Intermediário / Avançado",
-    skills: "ECMAScript 6"
   },
   {
     url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
     Title: "React-Js",
-    descrip: "Intermediário / Avançado",
-    skills: "React Hooks, UseState, UseEffect, Eventos, Props, Context Api e Redux"
   },
   {
     url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
     Title: "Next-Js",
-    descrip: "Intermediário / Avançado",
-    skills: "CSR, SSR,SSG"
   },
   {
     url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
     Title: "Tailwind",
-    descrip: "Intermediário",
-    skills:"Framework utilizado para desenvolvimento FrontEnd"
-
   },
   {
     url: "https://avatars.githubusercontent.com/u/20658825?s=200&v=4",
     Title: "Styled-Components",
-    descrip: "Intermediário / Avançado",
-    skills:"Utilização de props, provider theme"
-  },
-  {
-    url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
-    Title: "Node-Js",
-    descrip: "Basico",
-    skills: "Atualmente estudando NodeJs conhecimentos básicos"
   },
 ];
+export const Backend = [ 
+  {
+    url:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg",
+    Title:"node-js"
+  },
+  {
+    url:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+    Title:"Express"
+  },
+  {
+    url:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg",
+    Title:"MongoDb"
+  }
+];
+
+
 
 export const Skills = [
   {

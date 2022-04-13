@@ -6,7 +6,7 @@ export const MenuDesktop = styled.nav`
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
+  position: relative;
   ul {
     width: 100%;
     height: 100%;
@@ -34,13 +34,13 @@ export const MenuDesktop = styled.nav`
   }
 `;
 export const Mobile = styled.nav`
+  
   display: flex;
   width: 100%;
-  height: 100%;
   align-items: center;
   justify-content: flex-end;
   position: absolute;
-  padding-right: 20px;
+  background-color:blue ;
   top: 0;
 
   button {
@@ -50,6 +50,7 @@ export const Mobile = styled.nav`
     position: absolute;
     z-index: 9999;
     top: 32px;
+    right:32px ;
     background-color: transparent;
     @media screen and (max-width: 700px) {
       display: flex;
@@ -61,34 +62,36 @@ export const Mobile = styled.nav`
     display: block;
     position: absolute;
     width: 100%;
-    height: 100vh;
+    height:100% ;
+    min-height:50vh ;
     background-color: #fff;
     top: 100px;
     z-index: 30;
     left: 0;
     text-align: center;
     list-style: none;
-    transition: ease 1s all;
-    transform: translateY(0px);
-    overflow: hidden;
-    @media screen and (min-width: 700px) {
-      display: none;
-    }
+    transition: ease-in-out 2s all;
+    transform: translateY(-400vh);
+    
+   
   }
   .closed {
     display: block;
     position: absolute;
     width: 100%;
-    height: 100vh;
-    background-color: #333;
-    z-index: 30;
+    height: 92vh;
+    background-color: #ccc;
+    z-index: 34;
     top: 100px;
     left: 0;
     list-style: none;
     text-align: center;
-    transform: translateY(-130vh);
+    transform: translateY(0);
     transition: ease 1s all;
-    overflow: hidden;
+    @media screen and (min-width: 700px) {
+      display: none;
+    }
+    
   }
   li {
     padding: 12px 0;

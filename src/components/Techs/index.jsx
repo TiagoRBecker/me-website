@@ -1,4 +1,5 @@
 import { Container } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import { Button } from "../All";
 import { Skills } from "../mocks/AllMocks";
 import * as Styled from "./styled";
@@ -21,7 +22,9 @@ const Techs = () => {
           </Styled.Skills>
         ))}
         <Styled.BoxBtn>
+          <Link to = "/tecnologias">
           <Button text="Saiba mais" />
+          </Link>
         </Styled.BoxBtn>
       </Container>
     </Styled.BoxArea>

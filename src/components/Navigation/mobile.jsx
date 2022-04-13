@@ -14,7 +14,7 @@ const Mobile = () => {
   };
   return (
     <Styled.Mobile>
-      <ul className={isActive ? "show" : "closed"} onClick={closedMenu}>
+      <ul className={isActive ? "closed" : "show"} onClick={closedMenu}>
         <li>
           <Link to="/">Home</Link>
         </li>
