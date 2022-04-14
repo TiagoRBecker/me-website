@@ -4,7 +4,7 @@ import { Container } from "react-bootstrap";
 export const Tecnologias = () => {
   return (
     <Styled.BoxTecnologia>
-      <h1>Conhecimentos </h1>
+      <h1>Principais Tecnologias  </h1>
       <Container>
         <Styled.Front>
           <Styled.Title>

@@ -9,6 +9,8 @@ export const ProjectsArea = styled.div`
   h1 {
     text-align: center;
     color: #fff;
+    font-size: 2rem;
+    text-transform:uppercase ;
   }
   @media screen and (max-width: 760px) {
     padding: 10px;

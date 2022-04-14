@@ -10,6 +10,7 @@ export const BoxArea = styled.div`
     text-align: center;
     color: #fff;
     font-size: 2rem;
+    text-transform:uppercase ;
   }
 `;
 export const TechsBox = styled.div`

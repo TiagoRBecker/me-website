@@ -11,8 +11,10 @@ export const BoxArea = styled.div`
   justify-content:center ;
   flex-direction:column ;
   h1{
-    color:#fff;
-    font-size:1.6rem ;
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+    text-transform:uppercase ;
   }
 
 `;
