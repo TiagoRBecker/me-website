@@ -116,7 +116,9 @@ export const Sociais = styled.div`
 export const Contato = styled.div`
   width: 100%;
   height: 100%;
-
+  .email{
+    cursor:pointer ;
+  }
   .city,
   .email {
     padding: 1rem;

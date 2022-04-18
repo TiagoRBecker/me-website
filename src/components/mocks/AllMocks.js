@@ -97,24 +97,28 @@ export const Projects = [
     id: 1,
     url: "https://res.cloudinary.com/tiagobecker/image/upload/c_scale,h_904,w_1607/v1649427295/portfolio/ct_veihfu.png",
     slug: "Clima Tempo",
-    category:"app"
+    category:"app",
+    link:"https://github.com/TiagoRBecker/Clima-Tempo"
   },
   {
     id: 2,
     url: "https://res.cloudinary.com/tiagobecker/image/upload/v1649428330/portfolio/w1_p84d9b.png",
     slug: "Web Site",
-    category:"website"
+    category:"website",
+    link:"https://github.com/TiagoRBecker/Projeto-Pessoal-com-Bootstraap-jquery-javascript"
   },
   {
     id: 3,
     url: "https://res.cloudinary.com/tiagobecker/image/upload/v1649427296/portfolio/pz_dhkyig.png",
     slug: "Projeto Delivery Pizzaria",
-    category:"delivery"
+    category:"delivery",
+    link:"https://github.com/TiagoRBecker/deliverypizzaria"
   },
   {
     id: 4,
     url: "https://res.cloudinary.com/tiagobecker/image/upload/v1649426897/portfolio/fb_ys63qn.png",
     slug: "Flappy Bird",
-    category:"games"
+    category:"games",
+    link:"https://github.com/TiagoRBecker/Projeto-Flappy-Bird"
   },
 ];
