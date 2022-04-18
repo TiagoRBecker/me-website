@@ -25,26 +25,32 @@ export const Projetos = () => {
             <Button onClick={() => filterItem("app")} text="Apps" />
             <Button onClick={() => filterItem("games")} text="Games" />
             <Button onClick={() => filterItem("website")} text="Web-Site" />
-            <Button onClick={() => filterItem("delivery")} text="E-commerce" />
+            <Button onClick={() => filterItem("delivery")} text="Delivery" />
           </Styled.Buttons>
-          <Styled.Box>
+          <Styled.Box data-aos="fade-rigth">
             {cat.map((project) => (
               <Styled.BoxItem key={project.id}>
-                <Styled.Img data-aos="fade-rigth">
+                <Styled.Img >
                   <img src={project.url} alt={project.slug} />
                 </Styled.Img>
                 <Styled.Btns>
                   <Styled.Git>
-                    <button
-                      onClick={() =>
-                        (window.location = `${project.link}`)
-                      }
+                  <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href={`${project.gb}`}
                     >
                       <AiOutlineGithub size={30} fill={"#000"} />
-                    </button>
+                   </a>
                   </Styled.Git>
                   <Styled.Demo>
-                    <h1>Live Demo</h1>
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href={`${project.vercel}`}
+                    >
+                      Live Demo
+                    </a>
                   </Styled.Demo>
                 </Styled.Btns>
               </Styled.BoxItem>

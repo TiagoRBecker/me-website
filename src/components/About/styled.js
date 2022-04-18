@@ -25,7 +25,9 @@ height:100%;
 display:flex;
 align-items:center;
 justify-content:center;
-flex-direction:column;`
+flex-direction:column;
+border-radius:5px;
+padding:2rem 0;`
 
 export const Img = styled.div`
 width:100%;
@@ -41,6 +43,7 @@ img{
   height:25% ;
   border-radius:50% ;
   background-size:contain ;
+  border:solid 2px #ccc ;
   background-position:center ;
   @media screen and (max-width:760px){
     width:100%;

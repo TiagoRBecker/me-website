@@ -51,6 +51,8 @@ flex-wrap:wrap ;
 export const BoxItem = styled.div`
 width:50%;
 height:100%;
+padding:0.4rem ;
+
 @media screen and (max-width:760px){
     width:100% ;
 }
@@ -58,30 +60,56 @@ height:100%;
 export const Img = styled.div`
 width:100% ;
 height:100% ;
-padding:1rem ;
 img{
     width:100% ;
     height:100% ;
+    background-color:#fff ;
     
 }
 `
 export const Btns = styled.div`
 display:flex ;
-transition: ease 1s all;`
+transition: ease 1s all;
+background-color:#fff;
+width:100%;
+height:45px;`
 export const Git = styled.div`
 width:50%;
 height:100% ;
 display:flex;
+border-right:4px solid #999 ;
 align-items:center ;
 justify-content:center ;
-button{
-    border:none;
-    background-color:transparent;
-}`
+cursor:pointer ;
+transition:all ease 0.9s ;
+&:hover{
+  background-color:#ccc; ;
+}
+a{
+    color:#000;
+    font-weight:bold ;
+    text-decoration:none;
+    width:100% ;
+    display:flex ;
+    align-items:center ;
+    justify-content:center ;
+}
+
+`
 export const Demo = styled.div`
 width:50%;
 height:100%;
 display:flex;
 align-items:center ;
 justify-content:center ;
+cursor:pointer ;
+transition:all ease 0.9s ;
+&:hover{
+  background-color:#ccc; ;
+}
+a{
+    color:#000;
+    font-weight:bold ;
+    text-decoration:none;
+}
 `

@@ -3,6 +3,7 @@ import {
   AiOutlineGithub,
   AiFillLinkedin,
   AiOutlineWhatsApp,
+  AiTwotoneMail
 } from "react-icons/ai";
 import * as Styled from "./styled";
 
@@ -44,7 +45,7 @@ const Contact = () => {
                     (window.location = "mailto:beckertiago09@gmail.com")
                   }
                 >
-                  tiagoBecker@gmail.com
+                <AiTwotoneMail size={50}/>
                 </p>
               </div>
 

@@ -98,27 +98,31 @@ export const Projects = [
     url: "https://res.cloudinary.com/tiagobecker/image/upload/c_scale,h_904,w_1607/v1649427295/portfolio/ct_veihfu.png",
     slug: "Clima Tempo",
     category:"app",
-    link:"https://github.com/TiagoRBecker/Clima-Tempo"
+    gb:"https://github.com/TiagoRBecker/Api-Tempo",
+    vercel:"https://climatempo.vercel.app"
   },
   {
     id: 2,
     url: "https://res.cloudinary.com/tiagobecker/image/upload/v1649428330/portfolio/w1_p84d9b.png",
     slug: "Web Site",
     category:"website",
-    link:"https://github.com/TiagoRBecker/Projeto-Pessoal-com-Bootstraap-jquery-javascript"
+    gb:"https://github.com/TiagoRBecker/WebSite",
+    vercel:"https://web-site-wine.vercel.app"
   },
   {
     id: 3,
     url: "https://res.cloudinary.com/tiagobecker/image/upload/v1649427296/portfolio/pz_dhkyig.png",
     slug: "Projeto Delivery Pizzaria",
     category:"delivery",
-    link:"https://github.com/TiagoRBecker/deliverypizzaria"
+    gb:"https://github.com/TiagoRBecker/delivery",
+    vercel:"https://delivery-six-livid.vercel.app"
   },
   {
     id: 4,
     url: "https://res.cloudinary.com/tiagobecker/image/upload/v1649426897/portfolio/fb_ys63qn.png",
     slug: "Flappy Bird",
     category:"games",
-    link:"https://github.com/TiagoRBecker/Projeto-Flappy-Bird"
+    gb:"https://github.com/TiagoRBecker/Flappy-Bird",
+    vercel:"https://flappy-bird-delta.vercel.app"
   },
 ];
