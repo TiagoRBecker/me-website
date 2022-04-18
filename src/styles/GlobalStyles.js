@@ -12,7 +12,7 @@ const GlobalStyle = createGlobalStyle`
   }
   body,html{
     font-family: 'Roboto', sans-serif;
-    overflow-x:hidden ;
+    overflow-x:hidden;
    
   }
 `;

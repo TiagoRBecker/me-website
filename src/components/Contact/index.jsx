@@ -39,17 +39,36 @@ const Contact = () => {
 
               <div className="email">
                 <h1>E-mail</h1>
-                <p>tiagoBecker@gmail.com</p>
+                <p
+                  onClick={() =>
+                    (window.location = "mailto:beckertiago09@gmail.com")
+                  }
+                >
+                  tiagoBecker@gmail.com
+                </p>
               </div>
 
               <div className="sociais">
                 <h1>Contatos</h1>
                 <div className="icons">
-                  <AiFillLinkedin />
+                  <AiFillLinkedin
+                    onClick={() =>
+                      (window.location = "https://br.linkedin.com/")
+                    }
+                  />
 
-                  <AiOutlineWhatsApp />
+                  <AiOutlineWhatsApp
+                    onClick={() =>
+                      (window.location =
+                        "https://api.whatsapp.com/send?phone=5551997338612")
+                    }
+                  />
 
-                  <AiOutlineGithub />
+                  <AiOutlineGithub
+                    onClick={() =>
+                      (window.location = "https://github.com/TiagoRBecker")
+                    }
+                  />
                 </div>
               </div>
             </Styled.Contato>

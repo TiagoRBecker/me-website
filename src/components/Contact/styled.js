@@ -156,6 +156,7 @@ export const Contato = styled.div`
         padding-right: 1rem;
         fill: #fff;
         font-size: 3rem;
+        cursor:pointer ;
       }
     }
   }
