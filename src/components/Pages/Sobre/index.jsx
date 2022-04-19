@@ -13,8 +13,8 @@ export const Sobre = () => {
           </Styled.Img>
           <Styled.Descript>
             <h3>
-              Olá Eu sou o Tiago Becker! Desenvolvedor front-end com 1 ano de
-              experiência em freelancer, alguns dos meus projetos você pode
+              Olá! Eu sou o Tiago Becker! Desenvolvedor front-end com
+              experiência de mais de 1 ano em Reactjs.Alguns dos meus projetos você pode
               encontar na área de portfólio ou clicando
                <Link to="/portfolio"> " Aqui! " </Link>.
             </h3>

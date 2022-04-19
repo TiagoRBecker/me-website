@@ -40,9 +40,8 @@ export const Mobile = styled.nav`
   align-items: center;
   justify-content: flex-end;
   position: absolute;
-  background-color:blue ;
   top: 0;
-
+ 
   button {
     display: none;
     border: none;
@@ -59,12 +58,15 @@ export const Mobile = styled.nav`
     }
   }
   .show {
-    display: block;
+    display:flex ;
+    align-items:center ;
+    justify-content:center ;
+    flex-direction:column ;
     position: absolute;
     width: 100%;
     height:100% ;
     min-height:50vh ;
-    background-color: #fff;
+    background-color: #ccc;
     top: 100px;
     z-index: 30;
     left: 0;
@@ -76,8 +78,11 @@ export const Mobile = styled.nav`
    
   }
   .closed {
-    display: block;
     position: absolute;
+    display:flex ;
+    flex-direction:column ;
+    align-items:center ;
+    justify-content:center ;
     width: 100%;
     height: 92vh;
     background-color: #ccc;
@@ -101,10 +106,10 @@ export const Mobile = styled.nav`
     font-size: 1.5rem;
     color: #000;
     font-weight: bold;
-    transition: ease-in-out 0.9s all;
+    transition: ease-in-out 0.6s all;
     &:hover {
       color: #333;
-      border-bottom: 1px solid #000;
+     
     }
   }
 `;

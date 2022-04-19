@@ -8,19 +8,18 @@ const Techs = () => {
     <Styled.BoxArea>
       <Container data-aos="fade-left">
         <h1>Tecnologias</h1>
+       
+        <Styled.BoxSkills>
         {Skills.map((skill) => (
           <Styled.Skills key={skill.id}>
+            
             <Styled.Left>{skill.icon}</Styled.Left>
-            <Styled.Rigth>
-              {skill.skills}
-              <Styled.Bars>
-                <div className="progress" style={{ width: `${skill.porc}` }}>
-                  <span>{skill.porc}</span>
-                </div>
-              </Styled.Bars>
-            </Styled.Rigth>
+           
           </Styled.Skills>
+          
         ))}
+        </Styled.BoxSkills>
+        
         <Styled.BoxBtn>
           <Link to = "/tecnologias">
           <Button text="Saiba mais" />

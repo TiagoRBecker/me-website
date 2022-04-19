@@ -6,7 +6,7 @@ const Menu = () => {
     <Styled.MenuDesktop data-aos="fade-left">
       <ul>
         <li>
-          <Link to="/">Página Inicial</Link>
+          <Link to="/">Home</Link>
         </li>
         <li>
           <Link to="/about">Sobre</Link>

@@ -10,6 +10,11 @@ export const BoxArea = styled.div`
   align-items:center ;
   justify-content:center ;
   flex-direction:column ;
+  transition:ease 0.9s all ;
+  &:hover{
+    background-color:#999 ;
+    color:#000 ;
+  }
   h1{
     text-align: center;
     color: #fff;
