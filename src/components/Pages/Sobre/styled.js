@@ -3,14 +3,14 @@ export const Contato = styled.div`
 width:100%;
 height:100% ;
 min-height:100vh;
-background-color:#611037 ;
+background-color:#333 ;
 padding:50px 0 ;
 display:flex ;
 align-items:center ;
 justify-content:center ;
 flex-direction:column ;
 h1{
-    color:#9becc5;
+    color:#FFf;
     font-weight:bold ;
     font-size:2rem ;
     text-align:center ;
@@ -45,7 +45,7 @@ export const Descript = styled.div`
 width:100%;
 max-width:500px;
 height:100% ;
-color:#9becc5;
+color:#fff;
 display:flex ;
 align-items:center ;
 justify-content:center ;
@@ -55,7 +55,12 @@ h3{
     a{
         text-decoration:none ;
         cursor:pointer ;
-        color: #000;
+        color: #fff;
+        font-weight:bold ;
+        transition:all ease 0.6s ;
+        &:hover{
+            color:#000 ;
+        }
     }
 }
 `
@@ -89,7 +94,7 @@ justify-content:center;
     
     h2,p{
         
-        color:#9becc5;
+        color:#fff;
         margin:0 ;
         padding:0;
         }

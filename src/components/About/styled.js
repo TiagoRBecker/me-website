@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const BoxArea = styled.div`
   width: 100%;
   height: 80vh;
-  background-color: #333;
+  background-color: #000;
   height: 100%;
   min-height: 100vh;
   display:flex ;
@@ -11,10 +11,8 @@ export const BoxArea = styled.div`
   justify-content:center ;
   flex-direction:column ;
   transition:ease 0.9s all ;
-  &:hover{
-    background-color:#999 ;
-    color:#000 ;
-  }
+ 
+  
   h1{
     text-align: center;
     color: #fff;

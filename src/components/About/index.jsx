@@ -18,6 +18,7 @@ const About = () => {
             </Link>
           </Styled.Button>
         </Styled.Perfil>
+       
       </Container>
     </Styled.BoxArea>
   );

@@ -14,12 +14,13 @@ const Contact = () => {
   const [msg, setMsg] = useState("");
   const handleChange = () => {
     
+   if(name && email && msg){
+      toast.success("Mensagem enviada com sucesso!")
+      return 
+    }
    if(!name || !email || !msg){
     toast.error('Preencha os campos obrigatoriamente para enviar sua mensagem.')
     return;
-   }
-   if(name && email && msg){
-     toast.success("Mensagem enviada com sucesso!")
    }
   }
     
