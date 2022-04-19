@@ -1,8 +1,9 @@
-import { useEffect,useState } from "react";
-import { Header, Footer,Button } from "./components/All/index";
+import { useEffect } from "react";
+import { Header, Footer} from "./components/All/index";
 import { Rotas } from "./components/Rotas";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import {Toaster} from "react-hot-toast"
 
 function App() {
   
@@ -19,6 +20,7 @@ function App() {
       <Header />
       <Rotas />
       <Footer />
+      <Toaster position="bottom-right"/>
     </>
   );
 }
