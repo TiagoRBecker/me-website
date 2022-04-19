@@ -5,24 +5,45 @@ import {
   AiOutlineWhatsApp,
   AiTwotoneMail
 } from "react-icons/ai";
+import { useState } from "react";
 import * as Styled from "./styled";
 
 const Contact = () => {
+  const [name, setName] = useState("")
+  const [email, setEmail] = useState("")
+  const [msg, setMsg] = useState("")
+  const handleChange = (e)=>{
+    e.preventDefault();
+    
+  }
   return (
     <Styled.AreaContato>
       <Container data-aos="fade-left">
         <Styled.Box>
           <Styled.BoxForm>
             <h1>Contate nos!</h1>
-            <Styled.Form>
+            <Styled.Form action="https://api.staticforms.xyz/submit" method="POST">
+            <input type="hidden" name="accessKey" value="5506b314-f843-47d0-86b9-474aa075dbcc"/>
+            <input type="hidden" name="redirectTo" value="https://tiagobecker.vercel.app"/>
               <div className="name">
-                <input type="text" placeholder="Nome.." />
+                <input type="text"
+                 placeholder="Nome.."
+                 name="name"
+                 value={name}
+                 onChange={(e)=>setName(e.target.value)}/>
               </div>
               <div className="email">
-                <input type="text" placeholder="E-mail.." />
+                <input type="text" placeholder="E-mail.."
+                name="email"
+                value={email}
+                onChange={(e)=>setEmail(e.target.value)} />
               </div>
               <div className="area">
-                <textarea placeholder="Digite sua mensagem"></textarea>
+                <textarea 
+                placeholder="Digite sua mensagem"
+                name="message"
+                value={msg}
+                onChange={(e)=>setMsg(e.target.value)}></textarea>
               </div>
               <div className="btn">
                 <input type="submit" value="Enviar" />
